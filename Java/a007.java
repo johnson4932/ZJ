@@ -6,18 +6,18 @@ public class a007 {
 		while (in.hasNext()) {
 			int n = in.nextInt();
 			boolean prime = true;
-			
+
 			for (int i = 2; i <= (int)Math.sqrt(n); i++) {
 				if (n%i == 0) {
 					prime = false;
 					break;
 				}
 			}
-			
+
 			if (prime) {
-				System.out.println("½è¼Æ");
+				System.out.println("è³ªæ•¸");
 			} else {
-				System.out.println("«D½è¼Æ");
+				System.out.println("éžè³ªæ•¸");
 			}
 		}
 	}
