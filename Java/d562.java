@@ -11,7 +11,7 @@ public class d562 {
 			for (int i = 0; i < n; i++) {
 				arr.add(in.nextInt());
 			}
-			
+
 			int length = arr.size() - 1;
 			while (length >= 0) {
 				String answer = "";
@@ -21,7 +21,7 @@ public class d562 {
 				answer += "\n";
 				arr.remove(0);
 				length--;
-				
+
 				for (int i = length; i >= 0; i--) {
 					answer += arr.get(i) + " ";
 				}

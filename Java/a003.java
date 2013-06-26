@@ -9,13 +9,13 @@ public class a003 {
 			String str = "";
 			switch ((m*2+d)%3) {
 				case 0:
-					str = "´¶³q";
+					str = "æ™®é€š";
 					break;
 				case 1:
-					str = "¦N";
+					str = "å‰";
 					break;
 				default:
-					str = "¤j¦N";
+					str = "å¤§å‰";
 			}
 			System.out.println(str);
 		}

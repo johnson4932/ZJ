@@ -7,9 +7,9 @@ public class a004 {
 			int year = in.nextInt();
 			String str = "";
 			if (year%4 == 0 && year%100 != 0 || year%400 == 0) {
-				str = "¶|¦~";
+				str = "é–å¹´";
 			} else {
-				str = "¥­¦~";
+				str = "å¹³å¹´";
 			}
 			System.out.println(str);
 		}

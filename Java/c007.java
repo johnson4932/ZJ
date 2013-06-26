@@ -6,7 +6,7 @@ public class c007 {
 		boolean quote = true;
 		while (in.hasNext()) {
 			String str = in.nextLine();
-			
+
 			for (int i = 0; i < str.length(); i++) {
 				char word = str.charAt(i);
 				if (word == '"') {

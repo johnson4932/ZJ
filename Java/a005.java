@@ -11,7 +11,7 @@ public class a005 {
 					arr[j] = in.nextInt();
 					System.out.print(arr[j] + " ");
 				}
-				
+
 				if (arr[3] - arr[2] == arr[2] - arr[1]) {
 					int difference = arr[2] - arr[1];
 					System.out.println(arr[3] + difference);
